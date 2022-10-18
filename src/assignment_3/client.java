@@ -7,17 +7,15 @@ public class client {
     protected   String name;
     protected Date date;
     protected Double KW;
-    protected Double total;
 
     public client(){
 
     }
-    public client(int maxKH,String name,Date date,Double KW,Double total){
+    public client(int maxKH,String name,Date date,Double KW){
         this.maxKH =maxKH;
         this.name = name;
         this.date = date;
         this.KW = KW;
-        this.total = total;
     }
 
     public int getMaxKH() {
@@ -52,14 +50,9 @@ public class client {
         this.KW = KW;
     }
 
-    public Double getTotal() {
-        return total;
+    public Double tinhTien(){
+        return getKW() * 2000 ;
     }
-
-    public void setTotal(Double total) {
-        this.total = total;
-    }
-
 }
 
 

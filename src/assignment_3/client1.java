@@ -9,15 +9,21 @@ public class client1 extends  client{
 
     }
 
-    public client1 (int maxKH, String name, Date date, String nationality, Double KW, Double total){
-        super(maxKH,name,date,KW,total);
+    public client1 (int maxKH, String name, Date date, String nationality, Double KW){
+        super(maxKH,name,date,KW);
         this.nationality = nationality;
     }
 
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+    @Override
     public Double tinhTien(){
-        double a = getKW() * 2000;
-        setTotal(a);
-        return getTotal();
+        return super.tinhTien();
     }
 
 }
