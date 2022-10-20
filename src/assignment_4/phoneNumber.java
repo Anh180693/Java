@@ -1,30 +1,21 @@
 package assignment_4;
+import java.util.ArrayList;
 
 public class phoneNumber {
-    protected String name;
-    protected String tel;
+    String name;
+    ArrayList<String> tel;
 
-    public phoneNumber(){
-
-    }
-    public phoneNumber(String name , String tel){
+    public phoneNumber(String name,String tel) {
         this.name = name;
-        this.tel = tel;
+        this.tel = new ArrayList<>();
+        this.tel.add(tel);
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getTel() {
+    public ArrayList<String> getTel() {
         return tel;
-    }
-
-    public void setTel(String tel) {
-        this.tel = tel;
     }
 }
