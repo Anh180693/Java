@@ -1,0 +1,27 @@
+Index: src/Buoi1/Student.java
+===================================================================
+diff --git a/src/Buoi1/Student.java b/src/Buoi1/Student.java
+--- a/src/Buoi1/Student.java	
++++ b/src/Buoi1/Student.java	
+@@ -1,7 +1,7 @@
+ package Buoi1;
+ 
+ public class Student {
+-    String name;
++    public String name;
+     int age = 28 ;
+ 
+     public void showInfo(){
+Index: src/Buoi1/PhanSo.java
+===================================================================
+diff --git a/src/Buoi1/PhanSo.java b/src/Buoi1/PhanSo.java
+--- a/src/Buoi1/PhanSo.java	
++++ b/src/Buoi1/PhanSo.java	
+@@ -14,6 +14,7 @@
+     }
+ 
+     public void setTuso(int tuso) {
++
+         this.tuso = tuso;
+     }
+ 

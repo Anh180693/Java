@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="assignment_7.FormController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="243.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtName" layoutX="180.0" layoutY="97.0" prefHeight="35.0" prefWidth="170.0" promptText="Name" />
+      <TextField fx:id="txtEmail" layoutX="180.0" layoutY="162.0" prefHeight="35.0" prefWidth="170.0" promptText="Email" />
+      <TextField fx:id="txtMark" layoutX="180.0" layoutY="239.0" prefHeight="35.0" prefWidth="170.0" promptText="Mark" />
+      <Button onAction="#Back" layoutX="63.0" layoutY="49.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="63.0" text="Back" />
+      <Button onAction="#Submit" layoutX="281.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Submit" />
+   </children>
+</Pane>

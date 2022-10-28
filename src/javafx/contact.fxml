@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.contactController">
+   <children>
+      <Text layoutX="263.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh bạ" wrappingWidth="164.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Name" layoutX="30.0" layoutY="100.0" text="name" />
+      <TextField fx:id="email" layoutX="30.0" layoutY="161.0" text="email" />
+      <Button layoutX="127.0" layoutY="249.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <ListView fx:id="lv" layoutX="327.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>
